@@ -1,0 +1,23 @@
+.coolcolour{
+			background-image:url(763839.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		.content{
+			background-image:url(https://wallpaperaccess.com/full/763839.jpg);
+			background-size: cover;
+			background-attachment: fixed;
+			width: 100.65%;
+			padding-left: 0px;
+			padding-right: 9px;
+			margin: -10px;
+			font-family: calibri;
+			border-radius: 0px;
+			height: 350%;
+		}
+
+		p{
+			font-size: 25px;
+			color: black;
+		}

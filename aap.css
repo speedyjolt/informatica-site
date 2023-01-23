@@ -1,0 +1,61 @@
+.ns-modalBox {
+background-color: rgba(0, 0, 0, 0.6);
+font-family:verdana;
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 99999;
+opacity:0;
+transition: opacity 300ms ease-in;
+-webkit-transition: opacity 300ms ease-in;
+-moz-transition: opacity 300ms ease-in;
+pointer-events: none;
+}
+
+.ns-modalBox:target {
+opacity:1;
+pointer-events: auto;
+}
+
+.ns-modalBox > div {
+width: 50%;
+position: relative;
+margin: 10% auto;
+padding: 20px;
+color:#fff;
+border-radius: 10px;
+background: gradient(#5e3f06, #000);
+background: -webkit-linear-gradient(#5e3f06, #000);
+background: -moz-linear-gradient(#5e3f06, #000);
+}
+
+@media screen and (max-width: 480px) {
+.ns-modalBox > div {
+width:70%;	
+}
+}
+
+.close {
+background-color: #9C0F05;
+color: #fff;
+font-weight: bold;
+width: 24px;
+line-height: 25px;
+position: absolute;
+right: -12px;
+top: -10px;
+text-align: center;
+text-decoration: none;
+border-radius: 12px;	
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+box-shadow: 1px 1px 3px #000;	
+-webkit-box-shadow: 1px 1px 3px #000;
+-moz-box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+background-color: #600903; 
+}
